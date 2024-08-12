@@ -1,0 +1,2 @@
+//create path in route and link with link tag
+

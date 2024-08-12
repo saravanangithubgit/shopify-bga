@@ -1,0 +1,44 @@
+.Newcollection{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.Newcollection h1{
+    font-weight: bold;
+color: #181616;
+}
+.Newcollection hr{
+    border: 3px solid rgb(26, 24, 24);
+    width: 350px;
+}
+.Newitems{
+ margin-top: 50px;  
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 30px;
+}
+
+@media  (max-width: 500px){
+
+    .Newitems{
+        margin-top: 50px;  
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 30px;
+       }
+
+}
+@media  (max-width: 380px){
+
+
+    .Newitems{
+        margin-top: 50px;  
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 30px;
+       }
+
+}

@@ -1,0 +1,45 @@
+.Popular-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    gap: 10px;
+    height: 90vh;
+}
+.Popular-item h1{
+    font-weight: bold;
+color: #181616;
+}
+.Popular-item hr{
+    border: 3px solid rgb(26, 24, 24);
+    width: 350px;
+}
+.item{
+ margin-top: 50px;  
+  display: flex;
+  gap: 30px;
+}
+@media(max-width:380px){
+    .Popular-item h1{
+        font-size: 20px;
+    }
+    .item{
+        margin-top: 50px;  
+         display: grid;
+         gap: 30px;
+         grid-template-columns: 1fr 1fr;
+       }
+    
+}
+@media(max-width:500px){
+    .Popular-item h1{
+        font-size: 20px;
+    }
+    .item{
+        margin-top: 50px;  
+         display: grid;
+         gap: 30px;
+         grid-template-columns: 1fr 1fr;
+       }
+    
+}
